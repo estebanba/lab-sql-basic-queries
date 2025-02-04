@@ -33,7 +33,7 @@ SELECT COUNT(*) AS available FROM inventory;
 SELECT COUNT(*) AS rented FROM rental;
 
 -- 	- 5.4 Determine the number of distinct last names of the actors in the database.
-SELECT COUNT(DISTINCT first_name) AS distinct_names FROM actor;
+SELECT COUNT(DISTINCT last_name) AS distinct_names FROM actor;
 
 -- 6. Retrieve the 10 longest films.
 SELECT * FROM film ORDER BY length DESC LIMIT 10;
